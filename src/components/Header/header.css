@@ -16,3 +16,9 @@
     background-color: rgb(28 25 25 / 85%) !important;
     box-shadow: 0 0 30px rgb(0 0 0 / 10%)   !important;
 }
+
+
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
