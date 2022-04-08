@@ -1,0 +1,15 @@
+.testifier {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.testimony-section {
+    padding: 100px 0;
+    background: linear-gradient(45deg, #000000c7, #000000c9),url(../../images/sax-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
