@@ -21,7 +21,7 @@ const Header = () => {
   };
   window.addEventListener('scroll', changeNavbarColor);
     return (
-        <Navbar expand="lg" fixed="top"  className={colorChange ? 'topbar_inner py-3' : ' py-3'}>
+        <Navbar expand="lg" fixed="top"  className={colorChange ? 'topbar_inner py-3' : 'topbar_inner py-3'}>
             <Container>
                 <Navbar.Brand href="#">
                     Music <span>School</span>

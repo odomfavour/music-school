@@ -45,6 +45,10 @@
     background-size: cover;
 }
 
+.image-box {
+    text-align: center;
+}
+
 .image-box img {
     border-radius: 8px;
     height: 450px;
