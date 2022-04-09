@@ -3,6 +3,7 @@ import './header.css'
 // import { Link } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import RegistrationModal from '../RegistrationModal/RegistrationModal';
+import logo from '../../images/logo.jpeg';
 
 const Header = () => {
     const [show, setShow] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
         <Navbar expand="lg" fixed="top"  className={colorChange ? 'topbar_inner py-3' : 'topbar_inner py-3'}>
             <Container>
                 <Navbar.Brand href="#">
-                    Music <span>School</span>
+                    <img src={logo} alt="brand logo" className='img-fluid'/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
@@ -38,7 +39,7 @@ const Header = () => {
                         <Nav.Link href="#team">Team</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                         <li className="nav-item">
-                            <button className="btn btn-outline-primary nav-link" onClick={handleShow}>Register</button>
+                            <button className="btn btn-primary nav-link" onClick={handleShow}>Register</button>
                         </li>
                     </Nav>
                 </Navbar.Collapse>

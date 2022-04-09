@@ -22,3 +22,7 @@
     color: #fff !important;
     border-color: #fff !important;
 }
+
+.navbar-brand img {
+    width: 50px !important;
+}

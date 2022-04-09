@@ -88,6 +88,8 @@
   .team-image img{
     height: 450px;
     border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
   }
 
   .team-item .person-name {
